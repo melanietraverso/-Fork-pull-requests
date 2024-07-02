@@ -1,0 +1,62 @@
+.UNO{
+    background-image: url(file:///C:/Users/windows%2010%2020h2/Desktop/Trabajos%206to2da/dise%C3%B1o%20wed%20dinamico/IMG_5935.jpg);
+}
+.tarjeta{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width: 300px;
+    height: 300px;
+    border: 10px solid rgb(126, 7, 7);
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    background-color: #635c5c;
+    font-family: sans-serif;
+    float: left;
+    margin: 70px;
+}
+
+
+
+  .titulo{
+    font-size: 24px;
+    padding: 30px 30px 0 30px;
+  }
+  .cuerpo{
+    width: 200px;
+  }
+  .pie{
+    background: #494a4b;
+    border-radius:0 0 150px 150px;
+    padding: 10px;
+    text-align:center;
+    
+  }
+  .pie a{
+    text-decoration: none;
+    color: white;
+  }
+  .pie a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: ""
+  }
+
+.capsula{ 
+  margin-left: 20%;
+
+}
+body{ 
+  background-color: rgb(107, 39, 37);
+}
+.cuerpouno{ 
+  width: 170px;
+  height: 170px; 
+}
+
+.res {
+  width: 950px;
+}
